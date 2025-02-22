@@ -15,7 +15,8 @@ function startPrediction() {
         return;
     }
 
-    fetch(`http://127.0.0.1:5000/predict?url=${casino_url}&username=${username}`)
+    fetch(`fetch('https://aviator-predictor-2-api.onrender.com')
+}`)
         .then(response => response.json())
         .then(data => {
             document.getElementById("result").innerText = JSON.stringify(data);
