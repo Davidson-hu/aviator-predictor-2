@@ -15,7 +15,8 @@ function startPrediction() {
         return;
     }
 
-    fetch(`fetch('https://aviator-predictor-2-api.onrender.com')
+    fetch(`fetch('https://aviator-predictor-2-api.onrender.com/predict
+')
 }`)
         .then(response => response.json())
         .then(data => {
